@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                <a href="index.html">
+                Pet Shop
+                </a>
+               </li>
+               <li>
+                <a href="pets.html">
+                    Available Pets
+                </a>
+                </li>
+                <li>
+                <a href="register.html">
+                <li>Register
+                </a>
+            </li>
+            </ul>
+        </nav>
+    </header>
+<section>
+    <h1>AVAILABLE PETS</h1>
+    <h2> ADD NEW PET </h2>
+
+<form onsubmit="handleSubmit(event)">
+    <label for="petName">
+        Pet Name
+        <input type="text"name="petName"/>
+    </label>
+    <br>
+    <label for="petType">
+        Pet Type
+        <input type="text"name="petType"/>
+    </label>
+    <br>
+    <label for="color">
+        Color
+        <input type="text"name="color"/>
+    </label>
+    <br>
+    <label for="age">
+        Age
+        <input type="number"name="age"/>
+    </label>
+    <input type="submit" value="SUBMIT"/>
+
+</form>
+</section>
+<script src="scripts.js"></script>
+
+</body>
+</html>
+
+
+<!-- linking to other html files  -->
